@@ -1,0 +1,43 @@
+.help-content {
+  .videos-list {
+    margin-bottom: 20px;
+    .videos {
+      margin-bottom: 15px;
+      .video-name {
+        background-color: #ffffff;
+        height: 45px;
+        position:relative;
+        margin-top: 15px;
+        display: table;
+        .serial-no {
+          background-color: #ffc107;
+          padding-top: 12px;
+          color: #fff;
+          font-size: 1.2em;
+          margin: 0px 5px 0px -15px;
+          display: inline-block;
+          width: 45px;
+          height: 45px;
+          position: absolute;
+          left: 0px;
+          text-align: center
+        }
+        p {
+          padding: 0px 20px;
+          display: table-cell;
+          vertical-align: middle;
+        }
+      }
+      a{
+        margin-top: 15px;
+      }
+      i {
+        padding: 0px 10px 0px 0px;
+      }
+      .info {
+        // display: inline-block;
+        font-size: 12px;
+      }
+    }
+  }
+}

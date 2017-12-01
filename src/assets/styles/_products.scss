@@ -1,0 +1,252 @@
+.products-content {  
+  .products-cover {
+    background-attachment: fixed;
+    background-image: url("/images/product-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    .overlay-content {
+      background-color: rgba(0, 0, 0, 0.6);
+      color: #fff;
+      padding: 30px 0;
+    }
+    .content-head {
+      padding-top: 1em;
+    }
+    .title {
+      font-size: 3em;
+    }
+    p {
+      font-size: 1.3em;
+      margin: 1em 0 2em;
+    }
+    .btn {
+      margin: 10px 5px 0 0;
+      padding: 0.8em;
+    }
+    .album-overlay {
+      background-image: url("/images/photobooks/header-image.png");
+      background-position: right top;
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 350px;
+    }
+  }
+  .album-content {
+    margin: 15px 0;
+    padding-bottom: 30px;
+    .album {
+      margin-top: 50px;
+
+      &#indi-pro-products, &#sh-pro-products {
+        margin-top: 0;
+        padding-top: 50px;
+      }
+
+      .album-heading {
+        // float: right;
+        h1 {
+          color: #575757;
+          margin-top: 0;
+        }
+      }
+      p {
+        color: #919191;
+        font-size: 1.3em;
+        line-height: 1.7;
+      }
+      .album-images {
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        bottom: 2em;
+        height: 21em;
+        position: relative;
+        &.indigo {
+          background-image: url("/images/photobooks/indigo.png");
+        }
+        &.silver-h {
+          background-image: url("/images/photobooks/silverh.png");
+        }
+        &.premium {
+          background-image: url("/images/photobooks/premium.png");
+        }
+      }
+    }
+  }
+  .photobooks-styles {
+    background-color: #FFFFFF;
+    padding-bottom: 50px;
+    h1 {
+      padding: 20px;
+      margin-top: 15px;
+    }
+    h4 {
+      position: relative;
+      bottom: 30px;
+    }
+    .photobooks {
+      background-size: contain;
+      background-position: center center;
+      height: 200px;
+      background-repeat: no-repeat;
+      padding: 20px;
+      margin: 20px 0px;
+      &.eco-leather {
+        background-image: url("/images/photobooks/eco-leather.png");
+      }
+      &.eco-leather-plus {
+        background-image: url("/images/photobooks/eco-leather-plus.png");
+      }
+      &.metallic-gala {
+        background-image: url("/images/photobooks/metallic-gala.png");
+      }
+      &.laser-craft {
+        background-image: url("/images/photobooks/laser-craft.png");
+      }
+      &.luxury {
+        background-image: url("/images/photobooks/luxury.png");
+      }
+      &.premium-regular {
+        background-image: url("/images/photobooks/premium-regular.png");
+      }
+      &.standard {
+        background-image: url("/images/photobooks/standard.png");
+      }
+      &.signature {
+        background-image: url("/images/photobooks/signature.png");
+      }
+    }
+  }
+  .photobooks-care-guidelines {
+        margin: 20px;
+        .link{
+          display: inline-block;
+          width: 30%;
+          margin: 0% 35%;
+        }
+        .photobooks-care {
+            background-image: url("/images/photobooks-care.png");
+            height: 120px;
+            margin: 20px 0px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+  .album-on-the-go {
+    // margin: 15px;
+        padding: 15px;
+        background-color: #ffffff;
+    // padding-bottom: 30px;
+    .album-heading {
+      margin-bottom: 50px;
+    }
+    .album {
+      p {
+        color: #919191;
+        font-size: 1.2em;
+        line-height: 1.7;
+      }
+      .album-image {
+        background-image: url("/images/photobooks/mobile.jpg");
+        background-size: cover;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        height: 22em;
+        margin-bottom: 2em;
+      }
+    }
+  }
+  .design-types {
+    margin: 15px;
+    padding-bottom: 30px;
+    .design-heading {
+      margin-bottom: 50px;
+    }
+    .type-head {
+      margin-top: 5px;
+    }
+    .type-head:first-child{
+      padding-top: 11%;
+    }
+    .design-image {
+      background-image: url("/images/design-offering.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 33em;
+      margin-bottom: 2em;
+    }
+    p {
+      color: #919191;
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
+    .products-banner {
+      background-image: url("/images/productbanner.jpg");
+      background-size: cover;
+      margin-top: 20px;
+      background-position: center;
+      .overlay-content {
+        background-color: rgba(0, 0, 0, 0.6);
+        color: #fff;
+        padding: 30px 0;
+      }
+      .content {
+        padding-left: 2em;
+        .title {
+          line-height: 1.3;
+        }
+      }
+      .btn {
+        margin-top: 30px;
+      }
+    }
+    .sales-txt {
+      margin-top: 20px;
+    }
+  }
+}
+
+@media screen and (min-width: $mobile-breakpoint) and (max-width: $tablet-breakpoint) {
+  .products-content {
+    .products-cover {
+      .album-overlay {
+        height: 250px;
+      }
+    }
+    .album-content {
+      .album {
+        .album-images {
+          height: 300px;
+        }
+      }
+    }
+    .design-types {
+      .design-image {
+        height: 360px;
+      }
+      .products-banner {
+        .content {
+          .title {
+            font-size: 2.5em;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $mobile-breakpoint) {
+  .products-content {
+    .design-types {
+      .products-banner {
+        .content {
+          .title {
+            font-size: 2.2em;
+          }
+        }
+      }
+    }
+  }
+}

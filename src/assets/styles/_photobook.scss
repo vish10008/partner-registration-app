@@ -1,0 +1,99 @@
+body {
+.canvera-photo-online {
+  position: relative;
+
+  .photobook-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: #f5f8fa;
+  }
+
+  .container {
+    h2 {
+      color: #333;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.4;
+      margin-bottom: 10px;
+    }
+
+    .photobooks-text{
+      margin-top: 20px;
+      color: #999;
+    }
+
+    .btn {
+      color: #333;
+    }
+  }
+
+  .photobook-left-div {
+    padding-left: 60px;
+
+    h2 {
+      text-align: center;
+    }
+
+    .photobook-slider {
+      max-width: 350px;
+      margin: 0 auto;
+
+      .slick-prev {
+        left: -45px;
+      }
+
+      .slick-next {
+        right: -45px;
+      }
+    }
+
+    p {
+      color: #999;
+      margin: 7px 0;
+    }
+  }
+
+  .photo-img{
+    margin-bottom: 20px;
+    position: relative;
+
+    h4{
+      position: absolute;
+      right: 20px;
+      bottom: 15px;
+      padding: 10px;
+      background: #fff;
+      color: #777;
+    }
+  }
+
+  .photo-apps {
+    img{
+      max-width: 165px;
+    }
+  }
+
+  .photo-phone{
+    height: 260px;
+    overflow: hidden;
+
+    img{
+      max-width: 360px;
+      margin: 0 auto;
+    }
+  }
+}
+
+.form-left-div{
+  padding-right: 60px;
+}
+
+.form-right-div {
+  padding-left: 60px;
+}
+}

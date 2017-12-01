@@ -1,0 +1,157 @@
+.payment-content {
+	.title{
+		padding:15px;
+	}
+  .header {
+    padding: 10px 8px;
+    margin-top: 20px;
+    background-color: #29323c;
+    color: #fff;
+    text-transform: uppercase;
+    h5 {
+      margin: 0px;
+    }
+  }
+  .alert {
+    color: #d32f2f;
+    box-shadow: 1px 1px 5px 1px #b6b3b3;
+    border: none;
+    padding: 15px;
+    margin-top: 25px;
+    font-weight: bold;
+    i {
+      font-size: 2em;
+      vertical-align: text-bottom;
+    }
+    &.alert-box {
+      box-shadow: 1px 1px 5px 1px #b6b3b3;
+      text-align: center;
+      padding: 15px;
+      margin: 15px auto;
+      display: table;
+      font-weight: normal;
+    }
+  }
+  .dark {
+    color: #000000;
+    font-weight: bold;
+  }
+  .payment-section {
+    margin-bottom: 30px;
+    .header {
+      &.pay-online {
+        background-color: #ffc107;
+      }
+    }
+    .pay-by {
+      background-color: #fff;
+      color: #919191;
+      height: 270px;
+      padding: 15px;
+      a {
+        color: #919191;
+        text-decoration: underline;
+        &:hover,
+        &:focus {
+          color: #ffc107;
+        }
+      }
+    }
+  }
+  .payment-axis-bank {
+    margin-bottom: 30px;
+    .bank-form {
+      background-color: #ffffff;
+      height: 920px;
+      .payment-info {
+        .head {
+          border-bottom: 1px solid #919191;
+          padding: 15px 0px 10px;
+          margin:0;
+        }
+        p{
+        	padding-top:10px;
+        }
+        &.info-grey {
+          background: #f2f2f2;
+          padding: 0px 10px 15px;
+        }
+        .pay-slip-info {
+        	padding:10px 0px;
+          i {
+            font-size: 11px;
+          }
+        }
+        .payment-img {
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          margin: auto;
+          position: relative;
+          // width: 322px;
+          height: 102px;
+          &.teller-screen {
+            background-image: url("/images/payment/tellers-screen.png");
+          }
+          &.axis-payslip {
+            background-image: url("/images/payment/axisbank-payinslip.png");
+          }
+        }
+      }
+      .info {
+        font-size: 11px;
+        color: #000000;
+        font-weight: bold;
+      }
+    }
+  }
+  .quick-hints {
+    .hints {
+      background-color: #ffffff;
+      height: 950px;
+      margin-bottom: 30px;
+      padding: 20px 10px;
+      i {
+        font-size: 11px;
+        &.ti-light-bulb::before {
+          color: #ffc107;
+          font-size: 2em;
+          vertical-align: middle;
+        }
+      }
+      .alternate {
+        width: 43%;
+        text-align: center;
+      }
+      .questions {
+        margin-top: 10px;
+      }
+      .answer {
+        padding: 0px 30px 10px;
+      }
+      .pay-slip {
+        width: 60%;
+      }
+      .print-order{
+      	margin-top: 20px;
+      }
+      .pay-slip-img {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 20px auto;
+        position: relative;
+        &.print {
+          background-image: url("/images/payment/payinslip-btn.png");
+          height: 183px;
+          // width: 244px;
+        }
+        &.order {
+          background-image: url("/images/payment/payinslip-myorders-btn.png");
+          // width: 553px;
+          height: 189px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+$icon-font-path: "../node_modules/bootstrap-sass/assets/fonts/bootstrap/";
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
+// Common styles
+@import "common";
+
+// Header styles
+@import "header";
+
+// Footer styles
+@import "footer";
+
+// Home page styles
+@import "home";
+
+// Photographer page styles
+@import "photographer";
+
+// Photobook page styles
+@import "photobook";
+
+// Contact page styles
+@import "contact";
+
+// Downloads page styles
+@import "downloads";
+
+// Signin page styles
+@import "partner-login";
+@import "forgot-password";
+
+// About page styles
+@import "about";
+
+// Our team styles
+@import "our-team";
+
+//Payment page styles
+@import "payment";
+@import "other-payment-options";
+
+//Payment details page styles
+@import "payment-details";
+
+
+
+//web font icons
+@import "themify-icons";
+
+// Custom icons
+@import "custom-icons";
+
+// Bootstrap override/custom styles
+@import "bootstrap-overrides";
+
+// Button ripple effect styles
+@import "ripple";
+
+// Animation effects for WOW styles
+@import "animate";
+
+// Modal styles
+@import "modal-styles";
+
+// News page styles
+@import "news";
+
+// Product page styles
+@import "products";
+
+// Terms And Conditions
+@import "tnc";
+
+// Market-sla page styles
+@import "market-sla";
+
+// Return form styles
+@import "return-form";
+
+// Design software page styles
+@import "design-software";
+
+// Album Upload page styles
+@import "album-upload";
+
+// Help page styles
+@import "help";
+
+// Canvera print advantage page style
+@import "print-advantage";
+
+
+
+// small laptop responsive design
+@import "laptop";
+
+// tablet responsive design
+@import "tablet";
+
+// mobile responsive design
+@import "mobile";

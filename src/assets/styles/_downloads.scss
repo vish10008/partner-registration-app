@@ -1,0 +1,46 @@
+body{
+.downloads-list {
+  .downloads-inner{
+    /*border: 1px solid #d3dfe4;
+    box-shadow: 0 0 1px 1px #eee;*/
+    padding: 15px 15px 20px;
+    border-radius: 4px;
+    margin-top: 30px;
+    background: #f5f8fa;
+  
+    /*&:hover {
+      box-shadow: 0 2px 15px 5px rgba(0,0,0,.2);
+      -webkit-transition: box-shadow .2s cubic-bezier(.15,.69,.83,.67);
+      transition: box-shadow .2s cubic-bezier(.15,.69,.83,.67);
+    }*/
+
+    h3 {
+      margin: 0 0 15px;
+      color: #333;
+    }
+
+    h4 {
+      font-size: 16px;
+      margin-bottom: 5px;
+      color: #606060;
+
+      &.app-size {
+        font-size: 15px;
+        margin-top: -7px;
+      }
+    }
+
+    .btn {
+      min-width: 150px;
+      background: #005472;
+      color: #fff;
+    }
+
+    .text-with-btn {
+      h4 {
+        margin-top: 12px;
+      }
+    }
+  }
+}
+}

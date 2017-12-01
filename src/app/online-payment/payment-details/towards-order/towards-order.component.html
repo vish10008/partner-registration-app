@@ -1,0 +1,44 @@
+<div class="payment-bottom clearfix">
+    <div class="payment-table-div order-table-div">
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Order Name & Number</th>
+                        <th>Order Date</th>
+                        <th>Order Details</th>
+                        <th>Design</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let orderDetail of orderDetails">
+                        <td><span class="nowrap-text" title="{{orderDetail.partnerName}}">{{orderDetail.partnerName}}</span> {{orderDetail.orderNumber}}</td>
+                        <td><span class="nowrap-text">{{orderDetail.orderDate}}</span></td>
+                        <td>{{orderDetail.description}}</td>
+                        <td class="design-price">
+                            <div class="theme-radio-block">
+                                <div class="radio-btn">
+                                    <input type="checkbox" name="order[1][]" value="" id="design-1">
+                                    <label for="design-1">{{orderDetail.designBalanceAmount/100 | currency:'INR':1.2-2}}</label>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="total-price">
+                            <div class="theme-radio-block">
+                                <div class="radio-btn">
+                                    <input type="checkbox" name="order[1][]" value="" id="total-1">
+                                    <label for="total-1">{{orderDetail.totalBalanceAmount/100 | currency:'INR':1.2-2}}</label>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="btn-container">
+        <button type="submit" class="btn form-btn">Back</button>
+        <button type="submit" class="btn form-btn pull-right">PAY NOW</button>
+    </div>
+</div>

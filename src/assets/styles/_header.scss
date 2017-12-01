@@ -1,0 +1,56 @@
+.navbar{
+  margin: 0;
+  background: $nav-bg;
+  border-color: $nav-border-color;
+
+  .navbar-brand{
+    margin-right: 20px;
+  }
+
+  .navbar-toggle {
+    .icon-bar {
+      display: block;
+      width: 22px;
+      height: 2px;
+      border-radius: 1px;
+      background: #333;
+    }
+  }
+
+  .navbar-nav {
+    font-size: $nav-size;
+    color: $nav-color;
+
+    li {
+      a{
+        padding: 18px 0 12px;
+        margin: 0 20px;
+
+        &:hover,&:focus{
+          background-color: transparent;
+        }
+      }
+
+      &.active a{
+        border-bottom: 3px solid #005472;
+        padding-bottom: 9px;
+        font-weight: bold;
+      }
+
+      &.yougraphy a:after {
+        content: '';
+        width: 21px;
+        height: 21px;
+        position: absolute;
+        top: 5px;
+        right: -18px;
+        background: url('assets/images/new.png') no-repeat center / 100% auto;
+      }
+      
+    }
+  }
+} 
+
+#header + div {
+  margin-top: 50px;
+}

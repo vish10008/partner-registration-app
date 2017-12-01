@@ -1,0 +1,64 @@
+body {
+.canvera-contact-us {
+  .photo-img {
+    img {
+      // opacity: .5;
+    }
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 35px; 
+  }
+
+  .map-bottom {
+    margin-top: -20px;
+
+    li {
+      display: inline-block;
+      margin-bottom: 10px;
+      font-size: 16px;
+    
+      &:nth-child(2){
+        margin-left: 20px;
+      }
+
+      img {
+        display: inline-block;
+        max-height: 20px;
+        max-width: 20px;
+        margin-right: 5px;
+      }
+
+      span {
+        opacity: .5;
+        display: inline-block;
+        vertical-align: top;
+      }
+    }
+  }
+
+  .form-right-div p {
+    margin-bottom: 30px;
+  }
+
+  .btn-container{
+     margin-top: 35px;
+  }
+
+  .success-msg {
+    display: none;
+    margin-top: 25px;
+
+    p {
+      margin-bottom: 0;
+
+      .ti-check{
+        color: #2ecc71;
+        font-size: 28px;
+      }
+    }
+  }
+}
+}

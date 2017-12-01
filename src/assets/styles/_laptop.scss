@@ -1,0 +1,171 @@
+@media screen and (min-width: $tablet-breakpoint) and (max-width: ($laptop-breakpoint - 1)) {
+  body{
+    //common css
+    .form-group {
+      margin-bottom: 15px;
+
+      .form-control {
+        height: 40px;
+        font-size: 14px;
+      }
+    }
+
+    //header css
+    .navbar .navbar-nav>li>a {
+      margin: 0 12px;
+    }
+
+    //home css
+    .home-carousel .item h2 {
+      font-size: 34px;
+    }
+    
+    &.new-design{
+      section h2 {
+        font-size: 34px;
+      }
+    }
+
+    section.canvera-youpraphy {
+      .theme-btn {
+        margin-top: 300px;
+        margin-bottom: 0px;
+      }
+    }
+
+    section.canvera-consumer{
+        .consumer-img {
+          img {
+            max-height: 360px;
+          }
+        } 
+        .partner-img {
+          right: 60px;
+        }
+    }
+
+    //photobook css
+    .canvera-photo-online {
+      .container {
+        p {
+          font-size: 16px;
+        }
+      }
+      
+      .photo-img{
+        h4{
+          font-size: 14px;
+        }
+      } 
+
+      .photo-phone {
+        height: 245px;
+
+        img {
+          margin: 0 auto;
+        }
+      }
+
+      .photo-apps img {
+        max-width: 165px;
+      }
+
+      .photobook-left-div {
+        padding: 0 30px;
+      }
+    }
+
+    .form-left-div {
+      padding-right: 15px;   
+    }
+
+    //downmoad css
+    .downloads-inner h3 {
+      font-size: 22px;
+    }
+
+    //contact css
+    .canvera-contact-us {
+      p {
+        font-size: 16px;
+      }
+    }
+
+    //footer css
+    footer {
+      .footer-social {
+        li {
+          & + li {
+            margin-left: 13px;
+          }
+
+          img {
+            max-height: 18px;
+          }
+        }
+      }
+    }
+
+    .team-canvera {
+      .team-inner-div {
+        .team-info {
+          h5 {
+            font-size: 15px;
+            margin: 8px 0 10px;
+          }
+
+          p {
+            font-size: 14px;
+            line-height: 1.4;
+          }
+
+          .team-link {
+            bottom: 8px; 
+          }
+        }
+      }
+    }
+
+    .aboutus-canvera{  
+      .container{
+        h4 {
+          font-size: 20px;
+          margin-bottom: 15px;
+        }
+
+        p {
+          font-size: 16px;
+          line-height: 1.4;
+          margin-bottom: 15px;
+        }
+      }
+    } 
+    
+    .payment-details-content {
+      .container {
+        .payment-banner {
+          width: 19%;
+        }
+        .payment-center {
+          width: 60%;
+        }
+
+        .payment-hover{
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .other-payment-section {
+      .payment-white-div{
+        padding: 10px 20px;
+      }
+
+      h4 {
+        &.grey-bg-text {
+          margin: 13px 20px;
+        }
+      }
+    }
+  }
+}

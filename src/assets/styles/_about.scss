@@ -1,0 +1,54 @@
+body {
+.aboutus-canvera{
+  .bg-about-mob img {
+    margin: 0 auto 15px;
+  }
+  
+  .container{
+    .aboutus-left {
+      float: left;
+      width: 47%;
+    }
+
+    .aboutus-right{
+      float: left;
+      width: 50%;
+      margin-left: 3%;
+    }
+
+    h2 {
+      margin-bottom: 30px;
+    }
+
+    h4 {
+      font-size: 22px;
+      margin-bottom: 25px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.48;
+      color: #666666;
+      margin-bottom: 25px;
+    }
+  }
+}
+
+.investor-canvera {
+  li{
+    border: solid 1px #d3dfe4;
+    float: left;
+    width: 24.5%;
+    padding: 12px 0;
+    margin-top: 40px;
+
+    & + li {
+      margin-left: .66%;
+    }
+
+    img {
+      margin: 0 auto;
+    }
+  }
+}
+}

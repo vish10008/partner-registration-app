@@ -1,0 +1,1358 @@
+@media screen and (max-width: ($mobile-breakpoint - 1)) {
+  body {
+    font-size: 11px;
+    // Modal styles
+    .custom-modal {
+      iframe {
+        height: 250px;
+      }
+    }
+    // common styles
+    .sub-head {
+      font-size: 2.5em;
+    }
+    .link-section {
+      text-align: center;
+      &.photographer-links {
+        div[class*=col-xs] {
+          padding: 0;
+        }
+        h1 {
+          font-size: 1.4em;
+        }
+        .mobile-txt {
+          padding-left: 1.7em;
+        }
+      }
+      a {
+        padding: 15px 0;
+        margin-right: -15px;
+        &:hover:not(.active),
+        &:focus:not(.active) {
+          color: #fff;
+        }
+        .link-txt {
+          display: none;
+        }
+        .mobile-txt {
+          padding-left: 2em;
+          display: inline-block;
+        }
+      }
+    }
+    .download-btns {
+      padding-bottom: 30px;
+      a {
+        height: 38px;
+        width: 130px;
+      }
+    }
+    // Contact page styles
+    .contact-content {
+      font-size: 14px;
+      .contact-cover {
+        background-attachment: scroll;
+      }
+      .address-section .branch-office {
+        height: auto;
+      }
+      .contact-form-section {
+        h1 {
+          font-size: 2em;
+          margin: 40px 0 20px;
+        }
+        .success-msg {
+          font-size: 1em;
+          padding-top: 20px;
+        }
+        .contact-bg {
+          .overlay-content {
+            font-size: 1.3em;
+            height: 200px;
+            ul {
+              padding: 15% 0 0 5%;
+            }
+          }
+        }
+      }
+    }
+    // About page styles
+    .about-content {
+      .about-cover {
+        background-attachment: scroll;
+      }
+      .section-head {
+        font-size: 2em;
+      }
+      .member {
+        height: auto;
+        .profile {
+          margin-right: 0;
+          padding-bottom: 10px;
+          .top {
+            height: 120px;
+            .founder-bg {
+              top: 20px;
+            }
+          }
+        }
+        .profile-details {
+          margin-left: 0;
+        }
+      }
+      .about-canvera {
+        .award {
+          height: 200px;
+        }
+      }
+      .investors {
+        .investor-logos {
+          .title {
+            height: 150px;
+            margin-right: 0;
+            padding-top: 20px;
+          }
+          .investor-logo {
+            height: auto;
+            margin-left: 0;
+            padding: 20px 0;
+            .logo-bg {
+              height: 40px;
+              margin-bottom: 30px;
+            }
+          }
+        }
+      }
+      .news {
+        margin: 50px 0 20px;
+        padding: 10px 0 20px;
+        .news-logos {
+          padding: 0;
+          .news-logo {
+            height: 40px;
+            margin-bottom: 30px;
+          }
+        }
+      }
+    }
+    // News page styles
+    .news-content {
+      .news-cover {
+        background-attachment: scroll;
+      }
+      .canvera-in-news {
+        padding: 10px 0;
+        .content {
+          margin-left: 0px;
+          height: 1240px;
+          .navbar-nav {
+            margin: 0;
+          }
+          .news-head {
+            h2 {
+              font-size: 2em;
+              padding-top: 0px;
+            }
+            .filter-btn {
+              margin-top: 20px;
+              // text-align: left;
+            }
+          }
+          .tab-content .info .icon {
+            margin-top: 0;
+            margin-bottom: 20px;
+          }
+        }
+      }
+      .at-canvera {
+        margin: 20px 0px;
+      }
+      .canvera-twitter {
+        margin: 20px 0px;
+      }
+      .canvera-facebook {
+        margin-left: 0px;
+      }
+    }
+    .news {
+      .read-more {
+        .award-img {
+          height: 300px;
+        }
+        .avalvikatan {
+          height: 360px;
+        }
+        .ppdir-img {
+          height: 150px;
+        }
+        .hp-award {
+          height: 150px;
+        }
+        .factory {
+          height: 170px;
+        }
+        .photofair {
+          height: 155px;
+        }
+        .bbc-img {
+          height: 200px;
+        }
+        .mobile-content {
+          display: table-footer-group;
+        }
+        .mobile-image {
+          display: table-header-group;
+        }
+        .through-lens {
+          height: 200px;
+        }
+        .bw-img {
+          height: 200px;
+        }
+      }
+    }
+    // Product page styles
+    .products-content {
+      .products-cover {
+        background-attachment: scroll;
+        .btn {
+          width: 100%;
+        }
+      }
+      .album-content .album {
+        margin: 0px;
+        .album-heading h1 {
+          margin: 10px 0 10px -15px;
+        }
+        .mobile-content {
+          display: table-footer-group;
+          .product-details {
+            padding: 0px 15px;
+          }
+        }
+        .mobile-image {
+          display: table-header-group;
+        }
+        .album-images {
+          height: 200px;
+          margin: 0 15px;
+          position: static;
+        }
+      }
+      .design-types {
+        .type-head:first-child {
+          padding-top: 0;
+        }
+        .design-image {
+          height: 26em;
+        }
+      }
+      .photobooks-care-guidelines {
+        .link {
+          display: inline;
+        }
+      }
+      .album-on-the-go .album .btn {
+        margin-bottom: 1.5em;
+      }
+    }
+    // Market SLA page 
+    .market-sla-content {
+      .market-sla-cover {
+        background-attachment: scroll;
+      }
+    }
+    //Terms of Service
+    .tnc-content {
+      .tnc-service {
+        p {
+          padding-left: 10px;
+        }
+      }
+    }
+    // Design Softwares page style
+    .ds-content {
+      .about-software {
+        .top-right-img {
+          display: none;
+        }
+      }
+    }
+    // Album upload page style
+    .au-content {
+      .upload-options {
+        .upload-tools {
+          &:first-child:after {
+            content: '';
+            display: none !important;
+          }
+        }
+      }
+    }
+    .payment-mode {
+      .payment-steps {
+        margin-bottom: 40px;
+      }
+    }
+    // Help page styles
+    .help-content {
+      .videos-list {
+        .videos {
+          .video-name {
+            width: 100%;
+          }
+          .download {
+            text-align: right;
+            padding: 0px;
+            a {
+              font-size: 11px;
+              &:first-child {
+                margin-left: -15px;
+              }
+            }
+          }
+        }
+      }
+    }
+    //Payment page styles
+    .payment-content {
+      .payment-section {
+        .pay-by {
+          &.mobile {
+            height: auto;
+          }
+        }
+      }
+      .payment-axis-bank {
+        .bank-form {
+          &.mobile {
+            height: auto;
+            padding-bottom: 20px;
+          }
+        }
+      }
+      .quick-hints {
+        .hints {
+          &.mobile {
+            height: auto;
+          }
+          .print-order {
+            padding: 0px;
+          }
+          .alternate {
+            &.mobile {
+              width: 100%;
+            }
+          }
+          .pay-slip-img {
+            &.order {
+              &.mobile {
+                height: 115px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+
+    //New common css
+    .container {
+      max-width: 400px;
+    }
+
+    &.new-design{
+      section {
+        padding: 30px 0;
+
+        p {
+          font-size: 14px;
+        } 
+
+        h2 {
+          font-size: 24px;
+        }
+
+        h4 {
+          font-size: 15px;
+        }
+      }
+    }
+
+    .btn.theme-btn{
+      font-size: 12px;
+      min-width: 140px;
+      padding: 7px 10px;
+
+      & + .theme-btn {
+        margin-left: 5px;
+      }
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+
+      .form-control {
+        height: 35px;
+        font-size: 14px;
+      }
+
+      textarea.form-control {
+        height: 70px;
+      }
+    }
+
+    //header css
+    .navbar {
+      .navbar-brand {
+        margin-right: 0;
+      }
+
+      .navbar-collapse{
+        border-top: 1px solid #ccc;
+
+        .navbar-nav {
+          margin: 0 -15px;
+
+          li {
+            a {
+              margin: 0 18px;
+              font-size: 10px;
+              padding: 4px 0;
+              display: inline-block;
+            }
+
+            &.active a {
+              border-bottom: 0;
+              padding-bottom: 0;
+              color: #005472;
+            }
+
+            &.yougraphy a:after {
+              top: 0px;
+              right: -25px;
+            }
+          }
+        }
+      }
+    }
+
+    //home css
+    section.canvera-banner {
+      .item {
+        .container {
+          height: 200px;
+          .carousel-text{
+            h2{
+              font-size: 22px;
+              line-height: 1.6;
+              padding: 0 25px;
+            }
+          }
+
+          .partner-carousel-img {
+            max-height: 200px;
+
+            img {
+              max-width: 120px;
+              margin: 40px 10px 0 0;
+            }
+          }
+
+          .partner-carousel-text {
+            max-height: 200px;
+
+            h2{
+              padding: 0;
+            }
+
+            h5{
+              font-size: 11px;
+              margin: 10px 0 15px;
+            }
+
+            .app-img{
+              li{
+                max-width: 47%;
+
+                & + li {
+                  margin-left: 5px;
+                }
+              }
+            }
+          }
+        }
+
+        &.banner-2{
+          background-image: url('assets/images/banner-2-mob.jpg');
+        }
+
+        &.banner-3{
+          background-image: url('assets/images/banner-3-mob.jpg');
+        }
+
+        &.banner-4{
+          background-image: url('assets/images/banner-4-mob.png');
+
+          .container {
+            .carousel-text {
+              h2 {
+                width: 39%;
+                text-align: right;
+                padding: 0;
+              }
+            }
+          }
+        }
+      }
+
+      .carousel {
+        > .container {
+          max-width: 100%;
+
+          .carousel-arrow {
+            top: calc(50% - 13px);
+
+            img {
+              max-height: 26px;
+            }
+
+            &.arrow-left {
+              left: 15px;
+            }
+
+            &.arrow-right {
+              right: 15px;
+            }
+          }
+        }
+      }
+    }
+
+    section.canvera-types {
+      margin-top: 20px;
+      padding: 0;
+      border: 0;
+      
+      .types-inner {
+        padding: 12px 15px;
+        margin-bottom: 20px;
+      
+        h3 {
+          font-size: 19px;
+          margin: 0 0 5px;
+        }
+      }
+    }
+
+    .difference-right{
+      padding: 0;
+      margin: -30px 0 30px;
+    }
+
+    .list-dash li {
+      margin-top: 7px;
+      font-size: 16px;
+    }
+
+    .difference-left p {
+      margin: 12px 0 20px;
+    
+      .theme-btn {
+        margin: 30px auto 0;
+        width: 150px;
+        display: block;
+      }
+    }
+
+    section.canvera-youpraphy {
+      padding: 0;
+      //min-height: 0; 
+      //background-color: #fddd00;
+      // background-position: center bottom;
+      //background-size: contain;
+
+      .youpraphy-image-map{
+        position: static;
+      }
+
+      .yougraphy-logo{
+        position: absolute;
+        top: 15px;
+        left: 0;
+        right: 0;
+
+        img {
+          max-width: 160px;
+        }
+      }
+
+      .theme-btn {
+        display: none
+      }
+    }
+  
+    section.canvera-occasion {
+      .occasion-list {
+        li{
+          a{
+            h4 {
+              font-size: 15px;
+              margin-bottom: 20px;
+            }
+            
+            .occasion-img-outer{
+              height: 55px;
+              width: 55px;
+              margin: 0 0 3px;
+            }
+          }
+        }
+        
+      }
+    }
+
+    .photographer-list {
+      img {
+        margin: 20px 0 0;
+      }
+
+      h4 {
+        font-size: 16px;
+        margin: 15px 0 8px;
+      }
+    }
+
+    section.canvera-occasion {
+      ul {
+        margin: 25px 0 10px;
+      }
+    } 
+
+    section.canvera-photobooks{
+      padding: 30px 0;
+    }
+
+    section.canvera-photographer{
+      padding: 30px 0;
+
+      .btn-container {
+        margin: 30px  0 10px;
+      }
+    }
+
+    .customers-slider-div {
+      margin: 30px auto 0;
+      max-width: 500px;
+    
+      .slick-list {
+        .customer-item {
+          padding: 15px;
+
+          .slider-quote {
+            width: 18px;
+            margin: 0 0 5px;
+          }
+
+          h3 {
+            font-size: 14px;
+            margin: 0 0 30px;
+          }
+
+          h4, p{
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    
+    .customers-slider-div {
+      .slick-dots {
+        li {
+          padding: 30px 5px 0;
+
+          img {
+            max-width: 45px;
+          }
+        }
+      }
+    }
+
+    section.canvera-consumer {
+      padding: 20px 0 0;
+
+      .consumer-img {
+        position: static;
+        transform: translateY(0);
+
+        img {
+          max-height: 275px;
+          margin: 0 auto;
+        }
+      }
+
+      .partner-img{
+        position: static;
+        max-height: 325px;
+        overflow: hidden;
+        max-width: 280px;
+        margin: 0 auto 20px;
+      }
+
+      .consumer-left {
+        padding: 0 0 40px;
+
+        h2 {
+          margin-bottom: 15px;
+        }
+
+        p {
+          font-size: 15px;
+        }
+
+        .app-img {
+          li {
+            max-width: 46%;
+
+            & + li {
+              margin-left: 10px;
+            }
+          }
+        }
+
+        .app-stars {
+          margin: 20px 0 25px;
+
+          .stars-rating {
+            height: 20px;
+            width: 107px;
+
+            .rating {
+              height: 20px;
+            }
+          }
+
+          > span {
+            font-size: 15px;
+          }
+        }
+      }
+
+      .slick-dots{
+        bottom: 10px;
+      }
+    }
+
+    //footer css
+    footer {
+      font-size: 13px;
+      padding: 30px 0;
+
+      .container{
+        h3 {
+          margin-bottom: 10px;
+          font-size: 20px;
+        }
+      }
+
+      .footer-links {
+        ul {
+          text-align: left; 
+          margin: 20px 0;
+          max-width: 290px;
+
+          li.first {
+            padding-left: 0;
+          }
+        }
+      }
+
+      .footer-social {
+        ul{
+          width: 100%;
+
+          li {
+            width: 7%;
+            
+            & + li {
+              margin-left: 11.6%;
+            }
+
+            img {
+              max-height: 17px;
+            }
+          }
+        }
+      }
+
+      .site-links {
+        margin-top: 45px;
+
+        .site-link-title{
+          width: 100%;
+        }
+        ul {
+          width: 100%;
+
+          li {
+            display: inline-block;
+          }
+        }
+      }
+    }
+
+    //photographer css
+    .canvera-directory {
+      .photographer-list {
+        margin: 15px 0 30px;
+      }
+
+      .btn.theme-btn {
+        margin-top: 8px;
+      }
+    }
+
+    .photobook-image{
+      max-height: 3000px;
+      margin: 0 -15px;
+      
+      .btn-container{
+        position: static;
+        margin: 20px 0;
+      }
+    }
+
+    .tools-list {
+      margin-top: 20px;
+      margin-bottom: 25px;
+
+      .tools-item {
+        padding: 0 5px;
+
+        .tools-inner {
+          padding: 12px 15px;
+          margin-bottom: 15px;
+
+          h3 {
+            font-size: 19px;
+          }
+
+          h4 {
+            font-size: 12px;
+          }
+
+          .btn {
+            font-size: 10px;
+            min-width: 100px;
+          }
+        }
+      }
+
+      .slick-dots {
+        margin-top: 10px;
+      }
+    }
+
+    //photobook css
+    .canvera-photo-online {
+      margin-bottom: 0;
+
+      .photobook-bg{
+        width: 100%;
+        height: 49%;
+      }
+
+      .container {
+        p {
+          font-size: 15px;
+        }
+      }
+
+      .photo-img{
+        h4{
+          font-size: 13px;
+        }
+      } 
+
+      .photo-apps {
+        img {
+          max-width: 135px;
+        }
+      }
+
+      .photo-phone {
+        height: 215px;
+
+        img {
+          max-width: 285px;
+        }
+      }
+
+      .photobook-left-div {
+        padding: 0 20px;
+        margin-bottom: 30px;
+
+        .photobook-slider {
+          .slick-prev {
+            left: -20px;
+          }
+
+          .slick-next {
+            right: -20px;
+          }
+        }
+      }
+    }
+
+    .form-left-div {
+      padding-right: 15px;   
+    }
+
+    .form-right-div {
+      padding-left: 15px; 
+    }
+    
+    //downloads css
+    .downloads-list {
+      .downloads-inner{
+        margin-top: 20px;
+
+        h3 {
+          font-size: 20px;
+          margin: 0 0 10px;
+        }
+
+        .btn {
+          float: right;
+          margin-top: 8px;
+        }
+
+        .text-with-btn {
+          h4 {
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+
+    //contact css
+    .canvera-contact-us {
+      .map-bottom {
+        margin: 0 0 20px;
+
+        li{
+          display: block;
+          margin-bottom: 7px;
+          font-size: 14px;
+
+          &:nth-child(2) {
+            margin-left: 0px;
+          }
+        }
+      }
+
+      p {
+        font-size: 14px;
+        margin-bottom: 15px;
+      }
+
+      .btn-container {
+        margin-top: 0;
+      }
+    }
+
+    //signin css
+    .canvera-signin {
+      .container {
+        max-width: 400px;
+
+        .tab-box {
+          box-shadow: none;
+
+          .tab-box-left{
+            width: 100%;
+            box-shadow: 0px 3px 3px 0 rgba(175, 175, 175, 0.5);
+          }
+
+          .tab-box-right{
+            width: 100%;
+            border-left: 0;
+            border-top: solid 1px #eee;
+            margin-top: 15px;
+          }
+        }
+
+        .payment-box {
+          .payment-content {
+            .payment-list{
+              margin: 0 0 15px;
+            }
+          }
+        }
+      }
+    }
+
+    .aboutus-canvera{
+      .container{
+        .aboutus-right {
+          width: 100%;
+          margin: 0;
+        }
+
+        h2 {
+          margin-bottom: 20px;
+        }
+
+        h4 {
+          font-size: 18px;
+          margin-bottom: 10px;
+        }
+
+        p {
+          font-size: 14px;
+          line-height: 1.4;
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    .team-canvera {
+      .team-inner-div {
+        margin-top: 25px;
+
+        .team-info {
+          padding: 7px 7px 0;
+
+           h4 {
+            font-size: 16px;
+          }
+
+          h5 {
+            margin: 4px 0 6px;
+            font-size: 14px;
+          }
+
+          p {
+            font-size: 12px;
+            line-height: 1.4;
+          }
+
+          .team-link {
+            bottom: 5px; 
+
+            img {
+              width: 16px;
+              margin-right: 5px;
+            }
+          }
+        }
+      }
+    }
+
+    .investor-canvera {
+      li{
+        margin-top: 15px;
+        width: 49%;
+
+        & + li {
+          margin-left: 2%;
+        }
+
+        &:nth-child(odd) {
+          margin-left: 0;
+        }
+      }
+    }
+    
+    .payment-details-content {
+      .container {
+        .payment-banner {
+          width: 100%;
+          margin: 5px 0 0;
+
+          img {
+            margin: 0 auto;
+          }
+        }
+
+        .payment-center {
+          width: 100%;
+          margin: 0 0 20px;
+        }
+
+        .payment-hover{
+          margin-left: 5px;
+        }
+
+        .payment-top {
+          .payment-top-div {
+            width: 49%;
+            margin-bottom: 15px; 
+            padding: 8px 10px;
+
+            &:first-child {
+              width: 100%;
+              margin: 0 0 10px;
+            }
+
+            .theme-radio-block {
+              .radio-btn {
+                & + .radio-btn {
+                  margin-left: 15px;
+                }
+
+                label {
+                  padding: 0 0 0 18px;
+                }
+              }
+            }
+          }
+        }
+
+        .payment-bottom {
+          .payment-bottom-div {
+            margin: 10px 0 35px;
+            padding: 12px 15px 0;
+          }
+
+          .theme-checkbox-block {
+            .checkbox-btn {
+              max-width: calc(100% - 50px);
+            }
+          }
+
+          .payment-table-div {
+
+            &.order-table-div {
+              box-shadow: none;
+              background: #f8f8f8;
+              margin-bottom: 0;
+              padding: 0;
+
+              thead {
+                display: none;
+              }
+
+              tr {
+                display: block;
+                padding: 5px 8px;
+                position: relative;
+                background: #fff;
+                margin: 0 0 8px; 
+                border: 1px solid #ddd;
+                box-shadow: 1px 1px 1px 0 rgba(175, 175, 175, 0.5);
+              }
+
+              td {
+                border: 0;
+                padding: 1px 0 0;
+                display: block;
+
+                &.design-price {
+                  position: absolute;
+                  top: 9px;
+                  right: 75px;
+                  font-size: 10px;
+                }
+
+                &.total-price{
+                  position: absolute;
+                  top: 9px;
+                  right: 8px;
+                  font-size: 10px;
+                }
+
+                label {
+                  font-weight: bold;
+                }
+              }
+
+              .nowrap-text {
+                font-weight: bold;
+              }
+            }
+
+            .table-responsive{
+              border: 0;
+            }
+          }
+        }
+
+        .payment-hover{
+          .payment-hover-block {
+            top: 23px;
+            left: -15px;
+            width: 150px;
+
+            &:before{
+              border-top: 0;
+              border-bottom: 7px solid #ccc;
+              border-left: 7px solid transparent;
+              border-right: 7px solid transparent;
+              top: -7px;
+              left: 15px;
+            }
+
+            &:after {
+              border-top: 0;
+              border-bottom: 7px solid #fff;
+              border-left: 6px solid transparent;
+              border-right: 6px solid transparent;
+              top: -6px;
+              left: 16px;
+            }
+          }
+        }
+      }
+    }
+
+    .payment-content{
+      .other-payment-section {
+        .dropdown {
+          margin: 0 0 5px; 
+
+          &:not(.open) {
+            .dropdown-content{
+              display: none;
+            }
+
+            .dropdown-toggle {
+              img {
+                transform: rotate(0deg);
+              }
+            }
+          }
+
+          .dropdown-toggle {
+            position: relative;
+
+            img {
+              position: absolute;
+              right:10px;
+              top:12px;
+              transform: rotate(180deg);
+              display: block;
+            }
+          } 
+        }
+        .payment-white-div{
+          padding: 7px 10px;
+
+          &.payment-top {
+            span {
+              vertical-align: top;
+            }
+          }
+        }
+
+        .payment-two {
+          .payment-white-div {
+            width: 100%;
+            min-height: 0;
+          }
+        }
+        
+        .payment-three {
+          .payment-white-div {
+            width: 100%;
+            min-height: 0;
+          }
+        }
+
+        h4 {
+          font-size: 12px;
+          line-height: 1.5;
+
+          &.grey-bg-text {
+            margin: 7px 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 399px) {
+  body {
+    section.canvera-banner {
+      .item {
+        .container {
+          .carousel-text {
+            h2 {
+              font-size: 19px;
+            }
+          }
+        }
+      }
+    }
+    
+    section.canvera-youpraphy {
+      .youpraphy-image-map {
+        /*bottom: 30px;
+        right: -15px;
+        left: -15px;
+        width: auto;*/
+      }
+
+      .yougraphy-logo{
+        top: 8px;
+      }
+    }
+
+    .canvera-photo-online {
+      .photo-phone {
+        height: 205px;
+
+        img {
+          max-width: 275px;
+        }
+      }
+    }
+
+    .team-canvera {
+      .team-inner-div {
+        .team-info {
+          h4 {
+            font-size: 15px;
+          }
+
+          h5 {
+            margin: 3px 0 4px;
+            font-size: 10px;
+          }
+
+          p {
+            line-height: 1.3;
+            font-size: 10px;
+          }
+        }
+      }
+    }
+
+
+    .payment-details-content {
+      .container {
+        .payment-top{
+          .payment-table-div {
+            > p {
+              > span {
+                max-width: 215px;
+                display: inline-block;
+              }
+            }
+          }
+        }
+        .payment-bottom {
+          .theme-checkbox-block {
+            .checkbox-btn {
+              label{
+                max-width: 185px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

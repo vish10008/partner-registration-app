@@ -1,0 +1,225 @@
+.canvera-signin{
+  background: #f8f8f8;
+
+  .container{
+    max-width: 680px;
+
+    .tab-box{
+      background-color: rgba(255, 255, 255, 0.78);
+      box-shadow: 1px 2px 4px 0 rgba(175, 175, 175, 0.5), 0 2px 4px 0 rgba(176, 176, 176, 0.5);
+      margin: 28px 0 22px;
+
+      .tab-box-left{
+        float: left;
+        width: 50%;
+
+        a{
+          font-size: 12px;
+          color: #13507a;
+        }
+
+        .nav-tabs{
+          box-shadow: 0 2px 4px 0 rgba(175, 175, 175, 0.5);
+          border: 0;
+
+          li{
+            margin: 0;
+            width: 100%;
+            text-align: center;
+
+            &:not(.active) a{
+              opacity: .5;
+            }
+
+            a{
+              margin: 0;
+              border: 0;
+              border-radius: 0;
+              color: #333;
+              padding: 12px 0;
+              background: transparent;
+              font-weight: bold;
+            }
+          }
+        }
+
+        .tab-content {
+          .tab-pane{
+            padding: 20px 25px 15px;
+
+            label{
+              font-size: 12px;
+              color: #333333;
+              margin: 0 0 7px;
+            }
+
+            .half-group {
+              .form-group{
+                width: 48%;
+                float: left;
+
+                & + .form-group {
+                  margin-left: 4%;
+                }
+              }
+            }
+
+            .form-control {
+              color: #333;
+              height: 35px;
+              font-size: 10px;
+              border-color: #e2e2e2;
+            }
+
+            label.err-msg {
+              position: absolute;
+            }
+
+            .forgot-link{
+              margin-top: 6px;
+            }
+          }
+        }
+
+        .nav-tab-bottom{
+          text-align: center;
+          border-top: 1px solid #e2e2e2;
+          padding: 6px 0;
+          margin: 0 25px;
+
+         .dropdown-menu {
+            width: calc(100% + 50px);
+            left: -25px;
+            top: 37px;
+            padding: 12px 25px;
+            border-color: #ddd;
+            box-shadow: 1px 2px 4px 0 rgba(175, 175, 175, 0.5);
+            border-radius: 2px;
+            margin: 0;
+
+            &:before {
+              content: "";
+              top: -10px;
+              left: calc(50% - 6px);
+              position: absolute;
+              border-right: 11px solid transparent;
+              border-left: 11px solid transparent;
+              border-bottom: 10px solid #CCC;
+            }
+
+            &:after {
+              content: "";
+              top: -10px;
+              left: calc(50% - 5px);
+              position: absolute;
+              border-right: 10px solid transparent;
+              border-left: 10px solid transparent;
+              border-bottom: 10px solid #FFF;
+            }
+
+            p {
+              font-size: 12px;
+
+               img {
+                display: inline-block;
+                margin-right: 7px;
+                width: 10px
+              }
+            }
+
+            .close-dropdown {
+              font-size: 15px;
+              color: #919191;
+              position: absolute;
+              right: 10px;
+              top: 8px;
+              line-height: 16px;
+              width: 12px;
+              text-align: center;
+            }
+          }
+        }
+      }
+
+      .tab-box-right{
+        float: left;
+        width: 50%;
+        background: #fff;
+        border-left: solid 1px #eee;
+        overflow: hidden;
+
+        .signin-item {
+          .signin-top {
+            & > img{
+              margin: 0 auto;
+            }
+          }
+        }
+
+        .slick-dots {
+          margin-top: -25px;
+          padding-bottom: 6px;
+          position: relative;
+        }
+      }
+    }
+
+    .payment-box{
+      background-color: rgba(255, 255, 255, 0.78);
+      box-shadow: 1px 2px 4px 0 rgba(175, 175, 175, 0.5), 0 2px 4px 0 rgba(176, 176, 176, 0.5);
+
+      .payment-head {
+        padding: 8px 12px 8px 26px;
+        box-shadow: 1px 2px 4px 0 rgba(175, 175, 175, 0.5);
+        cursor: pointer;
+
+        h4{
+          font-size: 12px;
+          display: inline-block;
+        }
+
+        a {
+          width: 20px;
+          height: 20px;
+
+          img {
+            margin: 6px auto 0;
+            transform: rotate(180deg);
+          }
+        }
+
+        &.collapsed {
+          a{
+            img {
+              transform: rotate(0deg);
+            }
+          }         
+        }
+      }
+
+      .payment-content {
+        .clearfix{
+          padding: 12px 0 15px;
+        }
+
+        .payment-list {
+          margin-left: 15px;
+
+          li {
+            .payement-title {
+              font-size: 11px;
+              display: block;
+              margin-bottom: 5px;
+            }
+
+            .payement-info {
+              font-size: 10px;
+              color: #666666;
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+}

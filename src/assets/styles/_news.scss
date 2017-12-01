@@ -1,0 +1,498 @@
+.news-content {
+  .news-cover {
+    background-attachment: fixed;
+    background-image: url("/images/newspapers.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    .overlay-content {
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      min-height: 25em;
+      padding: 30px 0;
+    }
+    .content-head {
+      padding-top: 30px;
+    }
+    .title {
+      font-size: 3.5em;
+      text-transform: uppercase;
+    }
+    p {
+      font-size: 1.7em;
+      margin: 40px 0 60px;
+      width: 75%;
+    }
+    .social-links {
+      font-size: 2em;
+      margin-left: -15px;
+      margin-top: 50px;
+      a {
+        color: #fff;
+        padding: 5px 7px;
+        &:hover,
+        &:focus {
+          text-decoration: none;
+          &.fb {
+            color: #3b5998;
+          }
+          &.twitter {
+            color: #55ACEE;
+          }
+          &.gp {
+            color: #dd4b39;
+          }
+          &.linkedin {
+            color: #007bb6;
+          }
+          &.youtube {
+            color: #bb0000;
+          }
+        }
+      }
+    }
+  }
+  .canvera-in-news {
+    padding: 15px;
+    .content {
+      background-color: #ffffff;
+      position: relative;
+      height: 1140px;
+      .news-head {
+        padding: 20px 0px;
+        h2 {
+          margin: 0px;
+        }
+        h5 {
+          display: inline;
+        }
+      }
+      .navbar-nav {
+        li {
+          display: inline-block;
+        }
+        a {
+          font-size: 1.2em;
+          padding: 3px 15px 5px;
+        }
+        .active {
+          a {
+            background-color: $secondary-color;
+            color: #fff;
+          }
+        }
+      }
+      .scrollspy {
+        margin-bottom: 20px;
+      }
+      .scroll {
+        height: 1015px;
+        overflow-x: hidden;
+        h3 {
+          color: #919191;
+          display: inline-block;
+          padding-left: 15px;
+        }
+        p {
+          line-height: 1.5;
+        }
+        .info {
+          border-top: 1px solid #E5E9ED;
+          padding: 20px 15px;
+          background-color: #ffffff;
+          h4 {
+            margin-top: 0;
+          }
+          .icon {
+            background-position: top center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 130px;
+            margin: 10px 0;
+            &.logo {
+              background-image: url("/images/logo_pr2.jpg");
+              max-height: 130px;
+            }
+            &.avalvikatan {
+              background-image: url("/images/news/avalvikatan.png");
+            }
+            &.yourstory {
+              background-image: url("/images/news/YourStory_Media-Logo.png");
+              max-height: 90px;
+            }
+            &.bbc {
+              background-image: url("/images/news/bbc_asia_logo.jpg");
+              max-height: 45px;
+            }
+            &.reuters {
+              background-image: url("/images/news/reuters_logo.gif");
+              max-height: 80px;
+            }
+            &.hindu {
+              background-image: url("/images/news/theHindu_logo.jpg");
+              max-height: 55px;
+            }
+            &.business-world {
+              background-image: url("/images/news/business_world_logo.jpg");
+              max-height: 44px;
+            }
+            &.india-knowledge-wharton {
+              background-image: url("/images/news/India_Knowledge_Wharton.jpg");
+              max-height: 100px;
+            }
+            &.yourstory1 {
+              background-image: url("/images/news/yourstory_in.png");
+              max-height: 70px;
+            }
+            &.zdnet {
+              background-image: url("/images/news/zd_net_logo.png");
+              max-height: 80px;
+            }
+            &.bangalore-mirror {
+              background-image: url("/images/news/bangalore_mirror_logo.jpg");
+              max-height: 20px;
+            }
+            &.asian-photography-2013 {
+              background-image: url("/images/news/Asian_photography_2013.jpg");
+              max-height: 50px;
+            }
+            &.business-standard {
+              background-image: url("/images/news/BS.jpg");
+              max-height: 100px;
+            }
+            &.mydigitalfc {
+              background-image: url("/images/news/mydigitalfc.jpg");
+              max-height: 40px;
+            }
+            &.business-india {
+              background-image: url("/images/news/business_india_logo.jpg");
+              max-height: 60px;
+            }
+            &.deccan-chronicle {
+              background-image: url("/images/news/deccan_chronicle_logo.png");
+              max-height: 49px;
+            }
+            &.economics-times {
+              background-image: url("/images/news/economics_times_logo.png");
+              max-height: 19px;
+            }
+            &.tech-circle {
+              background-image: url("/images/news/tech_circle_in_logo.jpg");
+              max-height: 38px;
+            }
+            &.hp {
+              background-image: url("/images/news/hp_logo.jpg");
+              max-height: 70px;
+            }
+            &.photo-fair {
+              background-image: url("/images/news/photofair_logo.jpg");
+              max-height: 33px;
+            }
+            &.the-economics-times {
+              background-image: url("/images/news/the_economic_times.jpg");
+              max-height: 48px;
+            }
+            &.business-today {
+              background-image: url("/images/news/business_today_logo.jpg");
+              max-height: 90px;
+            }
+            &.smart-photography {
+              background-image: url("/images/news/smart_photography_logo_small.jpg");
+              max-height: 108px;
+            }
+            &.pc-quest {
+              background-image: url("/images/news/pc-quest.png");
+              max-height: 66px;
+            }
+            &.tamron-event {
+              background-image: url("/images/news/Tamron-Event.jpg");
+              height: 190px;
+            }
+            &.lucknow-meet {
+              background-image: url("/images/news/Lucknow-Partner-Meet.jpg");
+              max-height: 105px;
+            }
+            &.nbt-article {
+              background-image: url("/images/news/NBT-article.jpg");
+              height: 190px;
+            }
+            &.gadget-diary {
+              background-image: url("/images/news/gadget-diary.png");
+            }
+          }
+          p {
+            font-size: 1.4em;
+          }
+        }
+        .read {
+          font-size: 1em;
+          padding-left: 5px;
+        }
+        a {
+          color: #D32F2F;
+          text-decoration: none;
+        }
+      }
+    }
+    .last {
+      border-bottom: 1px solid #E5E9ED;
+    }
+  }
+  .canvera-twitter {
+    padding-bottom: 15px;
+    background-color: #ffffff;
+    overflow: hidden;
+  }
+  .canvera-facebook {
+    background-color: #ffffff;
+    margin-top: 20px;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+}
+
+.news {
+  .read-more {
+  	.head{
+  		font-weight:bold;
+  	}
+    .highlight{
+      font-weight: 600;
+    }
+    .image-label{
+      font-size: 12px;
+      text-align: center;
+      margin-top: -10px;
+      &.default{
+        text-align: left;
+      }
+    }
+    .award-img {
+      background-image: url("/images/news/canvera-award-2015.jpg");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 500px;
+      margin: 15px auto;
+    }
+    .avalvikatan {
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 1322px;
+      margin: 15px auto;
+      &.page-1{
+        background-image: url("/images/news/avalvikatan-page1.jpg");
+      }
+      &.page-2{
+        background-image: url("/images/news/avalvikatan-page2.jpg");
+      }
+      &.page-3{
+        background-image: url("/images/news/avalvikatan-page3.jpg");
+      }
+      &.page-4{
+        background-image: url("/images/news/avalvikatan-page4.jpg");
+      }
+    }
+    .ppdir-img{
+      background-image: url("/images/news/canvera-pp-directory.jpg");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 300px;
+      margin: 15px auto;
+    }
+    .canvera-logo{
+      background-image: url("/images/logo.png");
+      background-size: contain;
+      background-position: left;
+      background-repeat: no-repeat;
+      height: 37px;
+      margin: 15px 0px;
+      
+    }
+    .canvera-title{
+      background-image: url("/images/news/canvera_full_title.png");
+      background-size: contain;
+      background-position: left;
+      background-repeat: no-repeat;
+      height: 24px;
+      margin: 15px 0px;
+    }
+    .hp-award{
+      background-image: url("/images/news/canvera_hp_2014_award.jpg");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 300px;
+      margin: 15px auto;
+    }
+    .your-story{
+      background-image: url("/images/news/YourStory_Media-Logo.png");
+      background-size: contain;
+      background-position: left;
+      background-repeat: no-repeat;
+      height: 90px;
+      margin: 15px 0px;
+    }
+    .founders-img{
+      background-image: url("/images/news/canvera_engaging_photographers_1.jpg");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 199px;
+      margin: 15px 0px;
+    }
+    .factory{
+      background-image: url("/images/news/canvera_engaging_photographers_3.jpg");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 391px;
+      margin: 15px auto;
+    }
+    .photofair{
+      background-image: url("/images/news/canvera_engaging_photographers_2.jpg");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 375px;
+      margin: 15px auto;
+    }
+    .bbc-logo{
+      background-image: url("/images/news/How_technology_is_changing_Indian_weddings_logo.png");
+      background-size: contain;
+      background-position: left;
+      background-repeat: no-repeat;
+      height: 103px;
+      margin: 15px 0px;
+    }
+    .bbc-img{
+      background-size: contain;
+      background-position: left;
+      background-repeat: no-repeat;
+      height: 261px;
+      margin: 15px 0px;
+      &.img-1{
+        background-image: url("/images/news/How_technology_is_changing_Indian_weddings_1.jpg");
+      }
+      &.img-2{
+        background-image: url("/images/news/How_technology_is_changing_Indian_weddings_2.jpg");
+      }
+      &.img-3{
+        background-image: url("/images/news/How_technology_is_changing_Indian_weddings_3.jpg");
+      }
+      &.img-4{
+        background-image: url("/images/news/How_technology_is_changing_Indian_weddings_4.jpg");
+      }
+      &.img-5{
+        background-image: url("/images/news/How_technology_is_changing_Indian_weddings_5.jpg");
+      }
+      &.img-6{
+        background-image: url("/images/news/How_technology_is_changing_Indian_weddings_6.jpg");
+      }
+    }
+    .reuters-logo{
+      background-image: url("/images/news/reuters_logo.gif");
+      background-size: contain;
+      background-position: left;
+      background-repeat: no-repeat;
+      height: 162px;
+      margin: 15px 0px;
+    }
+    .reuters-img{
+      background-size: contain;
+      background-position: left;
+      background-repeat: no-repeat;
+      height: 200px;
+      margin: 15px 0px;
+      &.img-1{
+        background-image: url("/images/news/Canvera_news_Wedding_photographers_in_India_beat_economic_gloom_1.jpg");
+      }
+      &.img-2{
+        background-image: url("/images/news/Canvera_news_Wedding_photographers_in_India_beat_economic_gloom_2.jpg");
+      }
+      &.img-3{
+        background-image: url("/images/news/Canvera_news_Wedding_photographers_in_India_beat_economic_gloom_3.jpg");
+        height: 300px;
+      }
+      &.img-4{
+        background-image: url("/images/news/Canvera_news_Wedding_photographers_in_India_beat_economic_gloom_4.jpg");
+      }
+    }
+    .hindu-logo{
+      background-image: url("/images/news/theHindu_logo.jpg");
+      background-size: contain;
+      background-position: left;
+      background-repeat: no-repeat;
+      height: 55px;
+      margin: 15px 0px;
+    }
+    .through-lens{
+      background-size: contain;
+      background-position: left;
+      background-repeat: no-repeat;
+      height: 352px;
+      margin: 15px 0px;
+      &.img-1{
+        background-image: url("/images/news/through_a_lens_01.jpg");
+      }
+      &.img-2{
+        background-image: url("/images/news/through_a_lens_02.jpg");
+      }
+    }
+    .bw-logo{
+      background-image: url("/images/news/business_world_logo.jpg");
+      background-size: contain;
+      background-position: left;
+      background-repeat: no-repeat;
+      height: 44px;
+      margin: 15px 0px;
+    }
+    .bw-img{
+      background-size: contain;
+      background-position: left;
+      background-repeat: no-repeat;
+      height: 349px;
+      margin: 5px 0px;
+      &.img-1{
+        background-image: url("/images/news/shoot_store_print_01.jpg");
+      }
+      &.img-2{
+        background-image: url("/images/news/shoot_store_print_02.jpg");
+        height: 464px;
+      }
+    }
+    .ikw-logo{
+      background-image: url("/images/news/India_Knowledge_Wharton.jpg");
+      background-size: contain;
+      background-position: left;
+      background-repeat: no-repeat;
+      height: 100px;
+      margin: 15px 0px;
+    }
+    .your-story-logo{
+      background-image: url("/images/news/yourstory_in.png");
+      background-size: contain;
+      background-position: left;
+      background-repeat: no-repeat;
+      height: 71px;
+      margin: 15px 0px;
+    }
+    .your-story-img{
+      background-image: url("/images/news/prime_focus.jpg");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 215px;
+      margin: 5px 0px;
+    }
+    .zdnet-logo{
+      background-image: url("/images/news/zd_net_logo.png");
+      background-size: contain;
+      background-position: left;
+      background-repeat: no-repeat;
+      height: 81px;
+      margin: 5px 0px;
+    }
+  }
+}

@@ -1,0 +1,568 @@
+@media screen and (min-width:$mobile-breakpoint) and (max-width:($tablet-breakpoint - 1)) {
+  body {
+    font-size: 12px;
+    // Modal styles
+    .custom-modal {
+      iframe {
+        height: 300px;
+      }
+    }
+    .link-section {
+      a {
+        &:hover:not(.active),
+        &:focus:not(.active) {
+          color: #fff;
+        }
+      }
+      &.home-links {
+        h1 {
+          font-size: 1.2em;
+        }
+        div[class*=col-sm] {
+          padding-right: 0;
+        }
+        .col-sm-5 {
+          text-align: center;
+        }
+      }
+      &.photographer-links {
+        h1 {
+          font-size: 1.5em;
+        }
+        .link-txt {
+          display: none;
+        }
+        .mobile-txt {
+          padding-left: 2em;
+          display: inline-block;
+        }
+      }
+    }
+    .download-btns {
+      a {
+        height: 45px;
+        width: 150px;
+      }
+    }
+    //Product page styles
+    .products-content {
+      .photobooks-care-guidelines {
+        .link {
+          display: inline;
+        }
+      }
+      .design-types {
+        .type-head:first-child {
+          padding-top: 0;
+        }
+        .design-image {
+          height: 320px;
+        }
+        p {
+          font-size: 1.1em;
+        }
+      }
+    }
+    // About page styles
+    .about-content {
+      .member {
+        height: 290px;
+      }
+      .investors {
+        .member {
+          height: 250px;
+        }
+        .investor-logos {
+          .investor-logo {
+            padding-top: 0;
+            .logo-bg {
+              margin-top: 25px;
+            }
+          }
+        }
+      }
+      .news {
+        padding-bottom: 40px;
+        .news-logos {
+          padding-top: 0px;
+          div[class*=col-md] {
+            height: 80px;
+          }
+          .news-logo {
+            margin-top: 25px;
+          }
+        }
+      }
+    }
+    // News page styles
+    .news-content {
+      .canvera-in-news {
+        .content {
+          margin: 0px;
+          .tab-content {
+            min-height: 200px;
+            .info {
+              height: auto;
+            }
+          }
+        }
+      }
+      .at-canvera {
+        margin: 20px 0px;
+        padding: 10px 0px;
+      }
+      .canvera-twitter {
+        margin: 20px 0px;
+        padding-bottom: 0px;
+      }
+      .canvera-facebook {
+        margin: 20px 0px;
+      }
+    }
+    //Read more news styles
+    .news {
+      .read-more {
+        .avalvikatan {
+          height: 1000px;
+        }
+      }
+    }
+    // Design Softwares page style
+    .ds-content {
+      .about-software {
+        .top-right-img {
+          display: none;
+        }
+      }
+    }
+    // help page styles
+    .help-content {
+      .videos-list {
+        .videos {
+          .video-name {
+            width: 100%;
+            &.resource {
+              width: 66.6667%;
+            }
+            .serial-no {
+              margin: 0px;
+            }
+            p {
+              padding: 12px 35px;
+            }
+          }
+          .download {
+            text-align: right;
+            padding: 0px;
+          }
+        }
+      }
+    }
+    //Payment page styles
+    .payment-content {
+      .payment-section {
+        .pay-by {
+          &.tab {
+            height: 230px;
+          }
+        }
+      }
+      .payment-axis-bank {
+        .bank-form {
+          &.tab {
+            height: 985px;
+            padding-bottom: 20px;
+          }
+        }
+      }
+      .quick-hints {
+        .hints {
+          &.tab {
+            height: 915px;
+          }
+        }
+      }
+    }
+    
+    
+    //New common css
+    &.new-design{
+      section {
+        padding: 40px 0;
+
+        p {
+          font-size: 14px;
+        } 
+
+        h2 {
+          font-size: 28px;
+        }
+
+        h4 {
+          font-size: 15px;
+        }
+      }
+    }
+    
+    .btn.theme-btn{
+      font-size: 13px;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+
+      .form-control {
+        height: 35px;
+        font-size: 14px;
+      }
+
+      textarea.form-control {
+        height: 70px;
+      }
+    }
+    
+    //header css
+    .navbar {
+      .navbar-brand {
+        margin-right: 0;
+      }
+
+      .navbar-nav>li>a {
+        margin: 0 7px;
+        font-size: 10px;
+      }
+    }
+    
+    //home css
+    section.canvera-banner {
+      .item{
+        .container {
+          .carousel-text{
+            h2 {
+              font-size: 28px;
+            }
+          }
+
+          .partner-carousel-img {
+            img {
+              max-width: 220px;
+              margin: 60px 20px 0 0;
+            }
+          }
+        }
+      }
+    }
+
+    .canvera-types {
+      .types-inner {
+        padding: 12px 15px;
+
+        h3 {
+          font-size: 19px;
+          margin: 0 0 5px;
+        }
+      }
+    }
+    
+    .list-dash li {
+      margin-top: 5px;
+      font-size: 18px;
+    }
+
+    .difference-left p {
+      margin: 12px 0 20px;
+    }
+
+    section.canvera-youpraphy {
+      .theme-btn {
+        margin-top: 250px;
+        margin-bottom: -10px;
+      }
+    } 
+
+    .occasion-list {
+      margin: 55px 0 40px;
+
+      h4 {
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+      .occasion-img-outer{
+        height: 55px;
+        width: 55px;
+        margin: 0 0 5px;
+      }
+    }
+
+    .canvera-photographer .btn-container {
+      margin: 35px 0;
+    }
+
+    .photographer-list h4 {
+      font-size: 16px;
+      margin: 15px 0 8px;
+    }
+
+    .customers-slider-div {
+      margin: 30px auto 0;
+      max-width: 500px;
+
+      .slick-list {
+        .customer-item {
+          .slider-quote {
+            width: 24px;
+          }
+
+          h3 {
+            margin: 0 0 30px;
+          }
+
+          h4, p{
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    
+    section.canvera-consumer{
+      .consumer-img {
+        img {
+          max-height: 275px;
+        }
+      }
+
+      .partner-img {
+        right: 40px;
+
+        img {
+          max-height: 600px;
+        }
+      }
+
+      .consumer-left {
+        h2 {
+          margin-bottom: 15px;
+        }
+
+        p {
+          font-size: 15px;
+        }
+
+        .app-img {
+          li + li {
+            margin-left: 10px;
+          }
+        }
+
+        .app-stars {
+          margin: 10px 0 40px;
+        }
+      }
+    }
+    
+    //footer css
+    footer {
+      font-size: 13px;
+
+      .container{
+        h3 {
+          margin-bottom: 15px;
+          font-size: 22px;
+        }
+      }
+
+      .footer-social {
+        li {
+          & + li {
+            margin-left: 9px;
+          }
+
+          img {
+            max-height: 15px;
+          }
+        }
+      }
+
+      .site-links {      
+        .site-link-title{
+          width: 200px;
+        }
+        ul {
+          width: calc(100% - 200px);
+        }
+      }
+    }
+
+    //photographer css
+    .tools-list {
+      .tools-item {
+        .tools-inner {
+          h3{
+            font-size: 20px;
+          }
+
+          .btn {
+            font-size: 12px;
+            min-width: 140px;
+          }
+        }
+      }
+    }
+
+    //photobook css
+    .canvera-photo-online {
+      .container {
+        p {
+          font-size: 16px;
+        }
+      }
+
+      .photo-img{
+        h4{
+          font-size: 13px;
+        }
+      } 
+
+      .photo-phone {
+        height: 200px;
+
+        img {
+          margin: 0 auto;
+          max-width: 275px;
+        }
+      }
+
+      .photo-apps img {
+        max-width: 155px;
+      }
+
+      .photobook-left-div {
+        padding: 0 20px;
+
+        .photobook-slider {
+          .slick-prev {
+            left: -20px;
+          }
+
+          .slick-next {
+            right: -20px;
+          }
+        }
+      }
+    }
+
+    .form-left-div {
+      padding-right: 15px;   
+    }
+
+    .form-right-div {
+      padding-left: 15px; 
+    }
+
+    //contact css
+    .canvera-contact-us {
+      .map-bottom {
+        li{
+          font-size: 14px;
+        }
+      }
+
+      p {
+        font-size: 14px;
+        margin-bottom: 15px;
+      }
+
+      .btn-container {
+        margin-top: 0;
+      }
+    }
+
+    //download css
+    .downloads-inner h3 {
+      font-size: 22px;
+    }
+
+    .team-canvera {
+      .team-inner-div {
+        .team-info {
+          padding: 7px 7px 0;
+
+          h4 {
+            font-size: 15px;
+          }
+
+          h5 {
+            margin: 4px 0 5px;
+            font-size: 12px;
+          }
+
+          p {
+            font-size: 11px;
+          }
+
+          .team-link {
+            bottom: 6px; 
+
+            img {
+              width: 18px;
+              margin-right: 5px;
+            }
+          }
+        }
+      }
+    }
+
+    .aboutus-canvera{  
+      .container{
+        h4 {
+          font-size: 18px;
+          margin-bottom: 10px;
+        }
+
+        p {
+          font-size: 14px;
+          line-height: 1.4;
+          margin-bottom: 10px;
+        }
+      }
+    }  
+    
+    .payment-details-content {
+      .container {
+        .payment-banner {
+          width: 240px;
+          margin: 20px 5px 0;
+
+          &.payment-left {
+            margin-left: 125px;
+          }
+        }
+
+        .payment-center {
+          width: 650px;
+          margin: 0 50px;
+        }
+
+        .payment-hover{
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .payment-content{
+      .other-payment-section {
+        .payment-white-div{
+          padding: 7px 10px;
+        }
+
+        h4 {
+          font-size: 12px;
+
+          &.grey-bg-text {
+            margin: 7px 10px;
+          }
+        }
+      }
+    }
+  }
+}

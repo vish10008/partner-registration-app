@@ -1,0 +1,46 @@
+body {
+.team-canvera {
+  .team-inner-div {
+    border: 1px solid #d3dfe4;
+    margin-top: 50px;
+    border-radius: 4px;
+
+    .team-img {
+      width: 40%;
+      float: left;
+    }
+
+    .team-info {
+      width: 60%;
+      float: left;
+      padding: 10px 10px 0;
+
+      h4 {
+        font-size: 19px;
+      }
+
+      h5 {
+        font-size: 17px;
+        color: #666;
+        margin: 10px 0 15px;
+      }
+
+      p {
+        line-height: 1.5;
+        max-width: 245px;
+      }
+
+      .team-link {
+        position: absolute;
+        bottom: 11px;
+
+        img {
+          display: inline-block;
+          margin-right: 10px;
+          width: 22px;
+        }
+      }
+    }
+  }
+}
+}

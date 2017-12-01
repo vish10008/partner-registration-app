@@ -1,0 +1,138 @@
+.au-content {
+  // Common styles
+  .au-cover {
+    background-attachment: fixed;
+    background-image: url(/assets/images/design-software/banner-3.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    min-height: 269px;
+    .overlay-content {
+      padding: 85px 0px;
+      background-color: rgba(0,0,0,0.7);
+      .content {
+        color: #ffffff;
+        text-align: center;
+        line-height: 30px;
+        letter-spacing: .8px;
+        @extend .thin;
+        h1 {
+          text-transform: uppercase;
+          margin-top: 0px;
+          margin-bottom: 20px;
+          @extend .thin;
+        }
+      }
+    }
+  }
+  .section-head {
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 5px 20px;
+    font-size: 30px;
+    @extend .thin;
+  }
+  .upload-options {
+    position: relative;
+    background-color: #e6e6e6;
+    padding-top: 1px;
+    padding-bottom: 30px;
+    &:before {
+      content: '';
+      position: absolute;
+      height: 260px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      background-color: #ffffff;
+    }
+    .upload-tools {
+      position: relative;
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      &:first-child:after {
+        content: 'OR';
+        height: 25px;
+        width: 25px;
+        display: inline-block;
+        font-size: 18px;
+        position: absolute;
+        right: -13px;
+        top: 40%;
+        margin-top: -10px;
+      }
+      p.text-uppercase {
+        font-size: 16px;
+        font-weight: 700;
+        min-height: 44px;
+        span {
+          display: block;
+          font-weight: normal;
+          text-transform: none;
+        }
+      }
+      img {
+        margin-top: 30px;
+        margin-bottom: 25px;
+        max-width: 100%;
+      }
+      a {
+        color: #0072ff;
+      }
+    }
+    .call-text {
+      position: relative;
+      text-align: center;
+      margin-top: 20px;
+      z-index: 1;
+      img {
+        margin-right: 5px;
+      }
+    }
+  }
+  .payment-mode {
+    background-color: #ffffff;
+    border-top: 1px solid #e8e8e8;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-size: 16px;
+    .payment-steps {
+      margin-top: 20px;
+      ul {
+        li {
+          position: relative;
+          padding-left: 20px;
+          font-size: 16px;
+          margin-bottom: 15px;
+          color: #354052;
+          &:before {
+            content: '';
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            background-color: #323231;
+            left: 0px;
+            top: 5px;
+            @include border-radius(50%);
+          }
+        }
+      }
+    }
+    .app-link {
+      margin-top: 20px;
+      text-align: center;
+      ul {
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 0px;
+        img {
+          max-width: 140px;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}

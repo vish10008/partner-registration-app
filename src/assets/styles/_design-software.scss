@@ -1,0 +1,200 @@
+.ds-content {
+  // Common styles
+  .ds-cover {
+    background-attachment: fixed;
+    background-image: url(/assets/images/design-software/banner-1.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    .overlay-content {
+      padding: 85px 0px;
+      background-color: rgba(0, 0, 0, 0.7);
+      .content {
+        color: #ffffff;
+        text-align: center;
+        line-height: 30px;
+        letter-spacing: .8px;
+        @extend .thin;
+        h1 {
+          text-transform: uppercase;
+          margin-top: 0px;
+          margin-bottom: 20px;
+          @extend .thin;
+        }
+      }
+    }
+  }
+  .section-head {
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 5px 20px;
+    font-size: 30px;
+    @extend .thin;
+  }
+  .about-software {
+    position: relative;
+    margin-bottom: 10px;
+    background-color: rgba(235, 235, 235, 1);
+    background-color: -moz-linear-gradient(top, rgba(235, 235, 235, 1) 0%, rgba(224, 224, 224, 1) 100%);
+    background-color: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(235, 235, 235, 1)), color-stop(100%, rgba(224, 224, 224, 1)));
+    background-color: -webkit-linear-gradient(top, rgba(235, 235, 235, 1) 0%, rgba(224, 224, 224, 1) 100%);
+    background-color: -o-linear-gradient(top, rgba(235, 235, 235, 1) 0%, rgba(224, 224, 224, 1) 100%);
+    background-color: -ms-linear-gradient(top, rgba(235, 235, 235, 1) 0%, rgba(224, 224, 224, 1) 100%);
+    background-color: linear-gradient(to bottom, rgba(235, 235, 235, 1) 0%, rgba(224, 224, 224, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebebeb', endColorstr='#e0e0e0', GradientType=0);
+    &:before {
+      content: '';
+      position: absolute;
+      height: 80px;
+      left: 0px;
+      right: 0px;
+      bottom: -10px;
+      background-color: #fafafa;
+    }
+    .container-fluid {
+      position: relative;
+      z-index: 1;
+    }
+    .top-right-img {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      left: 0px;
+      bottom: 0px;
+      background-image: url(/assets/images/design-software/ds-about-bg.png);
+      background-position: top right;
+      background-repeat: no-repeat;
+      z-index: 0;
+    }
+    .logo-wrapper {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      img {
+        padding: 0px 15px;
+        max-height: 30px;
+        max-width: 49%;
+        display: inline-block;
+      }
+    }
+    p {
+      max-width: 800px;
+      font-size: 16px;
+      line-height: 30px;
+      margin: 20px auto 40px;
+    }
+    .screen-wrapper {
+      text-align: center;
+      li {
+        padding: 0px 50px;
+        img {
+          padding: 0px 15px;
+          max-height: 180px;
+          display: inline-block;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+  .ds-offer {
+    background-color: #ffffff;
+    border-top: 1px solid #e8e8e8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    .features {
+      margin-bottom: 50px;
+      img {
+        max-height: 35px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+      }
+      ul {
+        li {
+          position: relative;
+          padding-left: 20px;
+          font-size: 16px;
+          margin-bottom: 15px;
+          color: #354052;
+          &:before {
+            content: '';
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            background-color: #323231;
+            left: 0px;
+            top: 5px;
+            @include border-radius(50%);
+          }
+        }
+      }
+    }
+  }
+  .ds-system-requirement {
+    background-attachment: fixed;
+    background-image: url(/assets/images/design-software/banner-2-overlay.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    color: #ffffff;
+    .config {
+      font-size: 18px;
+      p {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        // font-size: 18px;
+      }
+      ul {
+        li {
+          position: relative;
+          padding-left: 20px;
+          margin-bottom: 15px;
+          &:before {
+            content: '';
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            background-color: #ffffff;
+            left: 0px;
+            top: 5px;
+            @include border-radius(50%);
+          }
+          ul > li {
+            &:before {
+              width: 8px;
+              height: 8px;
+              top: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .ds-download {
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-size: 16px;
+    a {
+      color: #0072ff;
+      &.user-guide-link {
+        display: inline-block;
+        margin-bottom: 20px;
+      }
+    }
+    img {
+      margin: 20px auto 0px;
+    }
+    .btn {
+      display: block;
+      color: #ffffff;
+      max-width: 200px;
+      margin: 30px auto 15px;
+      text-transform: capitalize;
+    }
+  }
+}

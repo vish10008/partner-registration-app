@@ -1,0 +1,46 @@
+<div class="payment-center">
+    <div class="payment-top clearfix">
+        <div class="payment-top-div">
+            <h4>Payment Towards</h4>
+            <div class="theme-radio-block">
+                <div *ngFor="let towardsOption of towardsOptions, let optionIndex = index" class="radio-btn" (click)="onSelect(towardsOption)">
+                    <input type="radio" [(ngModel)]="selectedTowardsOption.name" name="paymentFor" value="{{towardsOption.name}}" id="payment-{{optionIndex + 1}}" [checked]="towardsOption.name==selectedTowardsOption.name">
+                    <label for="payment-{{optionIndex + 1}}">{{towardsOption.title}}</label>
+                </div>
+            </div>
+        </div>
+        <div class="payment-top-div">
+            <div class="payment-top-title">
+                <h4>Incentives</h4>
+                <div class="payment-hover">
+                    <img alt="info" title="info" src="assets/images/icon-info.png" />
+                    <div class="payment-hover-block">
+                        <h4>Incentives</h4>
+                        <p>
+                            <span>Amount</span>
+                            <span class="pull-right">Expiry Date</span>
+                        </p>
+                        <p *ngFor="let incentive of balanceDetails?.incentives">
+                            <span>{{incentive.balanceAmount/100 | currency:'INR':1.2-2}}</span>
+                            <span class="pull-right">{{incentive.expiryDate}}</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <p>{{balanceDetails?.totalIncentiveBalanceAmount/100 | currency:'INR':1.2-2}}</p>
+        </div>
+        <div class="payment-top-div">
+            <div class="payment-top-title">
+                <h4>My Balance</h4>
+                <div class="payment-hover">
+                    <img alt="info" title="info" src="assets/images/icon-info.png" />
+                    <div class="payment-hover-block">
+                        <p>This is the balance amount in your Canvera account</p>
+                    </div>
+                </div>
+            </div>
+            <p>{{balanceDetails?.totalCreditBalanceAmount/100 | currency:'INR':1.2-2}}</p>
+        </div>
+    </div>
+    <router-outlet></router-outlet>
+</div>

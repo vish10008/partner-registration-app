@@ -1,0 +1,45 @@
+//Color variables
+$primary-color: #FFC107;
+$secondary-color: #D32F2F;
+$body-bg: #f2f2f2;
+
+$new-primary-color: #08121f;
+$new-secondary-color: $new-primary-color/2;
+$para-color: #919191;
+
+$gutter-space: 50px;
+$button-size: 15px;
+$button-color: #000;
+$button-border-color: #4a4a4a;
+$section-title-size: 36px;
+$section-title-weight: 300;
+$section-para-size: 16px;
+$border-color: #ddd;
+
+//Nav section
+$nav-size: 12px;
+$nav-color: #000;
+$nav-bg: rgba(255,255,255,.95);
+$nav-border-color: #eee;
+
+//footer section
+$footer-size: 16px;
+$footer-color: #fff;
+$footer-bg: #185472;
+$site-links-size: 13px;
+
+//Slider theme
+$slider-dots-bg: #7ba0b1;
+$slider-dots-active-bg: #164c67;
+
+//Form inputs
+$form-input-height: 50px;
+$form-input-size: 16px;
+
+//Typography
+$open-sans : 'Open Sans', Sans-serif,Helvetica,Arial;
+
+//Responsive width
+$laptop-breakpoint: 1200px;
+$tablet-breakpoint: 992px;
+$mobile-breakpoint: 768px;

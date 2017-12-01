@@ -1,0 +1,62 @@
+.btn{
+	border: none;
+	color: #fff;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	@include border-radius(0);
+
+	&:hover,&:focus{
+		color: #fff;
+	}
+
+	&.btn-lg{
+		padding: 0.85em 2em;
+	}
+}
+
+.btn-primary{
+	background-color: $primary-color;
+
+	&:hover,&:focus{
+		background-color: darken($primary-color, 5%);
+	}
+}
+
+.btn-default{
+	background-color: $secondary-color;
+
+	&:hover,&:focus{
+		background-color: darken($secondary-color, 5%);
+	}
+}
+
+/*.form-control{
+  background-color: $body-bg;
+  border: none;
+  color: #919191;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  height: 3em;
+  padding-right: 30px;
+  @include border-radius(0);
+  @include box-shadow(none);
+  @extend .thin;  
+
+  &:focus{
+    @include box-shadow(none);
+  }
+}*/
+
+
+.form-group {
+  margin-bottom: 20px;
+  
+  .form-control{
+    height: $form-input-height;
+    font-size: $form-input-size;
+  }
+
+  textarea.form-control {
+    height: auto;
+  }
+}
